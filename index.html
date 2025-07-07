@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shahd Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- AOS Library CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <!-- left side -->
+                <div class="left-side">
+                    <button id="theme-toggle" class="theme-toggle">
+                        <i id="theme-icon" class="fas fa-moon"></i>
+                    </button>
+                    <a href="#Home" class="brand-link">
+                        <h4>
+                            <span class="first-name" style="color: rgb(243, 132, 132);">Shahd</span>
+                            <span class="last-name" style="color: #02a8e9;">Mostafa</span>
+                        </h4>
+                    </a>
+                </div>
+
+                <!-- right side -->
+                <div class="right-side">
+                    <a href="#Home" class="nav-link">Home</a>
+                    <a href="#About" class="nav-link">About</a>
+                    <a href="#Projects" class="nav-link">Projects</a>
+                    <a href="#Skills" class="nav-link">Skills</a>
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="Home" data-aos="fade-up">
+        <div class="left-section">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/shahd-mostafa-844673318/" target="_blank" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/eng-Shahd-Mostafa" target="_blank" class="icon github"><i class="fab fa-github"></i></a>
+                <a href="mailto:eng.shahd.mostafa@gmail.com" class="icon email"><i class="fas fa-envelope"></i></a>
+            </div>
+
+            <div class="main-heading">
+                <h1><span class="highlight">Hi, I'm</span> Shahd Mostafa</h1>
+                <h3>Software Engineer</h3>
+                <p>
+                    I'm a passionate and adaptable programmer with a strong command of several programming languages,
+                    including C++, C#, and Python Additionally turning creative ideas into functional, user-friendly applications.
+                    <br><br>
+                    I enjoy solving complex problems and turning ideas into efficient, real-world solutions. With a continuous
+                    drive to learn and grow, I thrive in challenges that push my skills and creativity forward.
+                </p>
+                <div class="hero-buttons">
+                    <a href="files/ShahdMostafa_CV.pdf" download class="btn download-btn">Download CV</a>
+                    <a href="#Contact" class="btn contact-btn">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="triangle-top-right"></div>
+        <div class="triangle-bottom-right"></div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about-section" id="About" data-aos="fade-up">
+        <div class="about-container">
+            <div class="about-left">
+                <div class="image-container">
+                    <div class="about-placeholder">
+                        <img src="media/shahd.jpg" alt="Shahd Mostafa" class="about-image">
+                    </div>
+                </div>
+            </div>
+            <div class="about-right">
+                <h1>About Me</h1>
+                <p>
+                    I am a third-year student at the Faculty of Computers and Artificial Intelligence, 
+                    Cairo University, passionate about programming and problem-solving. 
+                    I have experience with C++,Python, Web Development, and C#, with a focus on 
+                    Object-Oriented Programming (OOP) and Data Structures. Additionally, I actively 
+                    engage in competitive programming on platforms like Codeforces to sharpen my skills.
+                </p>
+                <div class="info-container">
+                    <label><span class="info-title">Name:</span> Shahd Mostafa Farouk Mostafa</label>
+                    <label><span class="info-title">Age:</span> 20</label>
+                    <label><span class="info-title">Address:</span> Egypt, Giza, 6th of October</label>
+                    <label><span class="info-title">Education:</span> Faculty of Computers and Artificial Intelligence, Cairo University</label>
+                </div>
+                <a href="files/ShahdMostafa_CV.pdf" download class="btn download-btn about-btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+   <section class="projects-section" id="Projects" data-aos="fade-up">
+        <h1 class="section-title">My Projects</h1>
+        <div class="projects-container">
+
+           <!-- Project 1 (Library Website)-->
+            <div class="project-card" data-aos="fade-up">
+                <a href="https://drive.google.com/file/d/1s55aSaDl4joc6FKG8urAIbuKyqeOg1Kf/view?usp=sharing" target="_blank">
+                    <img src="media/library-poster.png" alt="Library Video" class="video-poster">
+                </a>
+                <div class="project-content">
+                    <h3>Library Website</h3>
+                    <p>
+                    A full-stack Django web application featuring user signup/login, book borrowing, admin dashboard,
+                    and role-based access. Designed with custom templates and Django ORM.
+                    </p>
+                    <div class="project-links">
+                    <a href="https://github.com/eng-Shahd-Mostafa/ON-Line-Library" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Project 2 (All-Games)-->
+            <div class="project-card" data-aos="fade-up">
+                <a href="https://drive.google.com/file/d/12yIGgAzPKw0S1tEVCQqPIcDrtIN1hQj8/view" target="_blank">
+                    <img src="media/games-poster.png" alt="Games Video" class="video-poster">
+                </a>
+                <div class="project-content">
+                    <h3>Games App</h3>
+                    <p>
+                    This is a collection of advanced board games developed using C++ and the Qt framework for GUI.
+                    including games like: Connect Four, Tic Tac Toe, and more...
+                    </p>
+                    <div class="project-links">
+                    <a href="https://github.com/eng-Shahd-Mostafa/All-Games" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 (Task Manager)-->
+            <div class="project-card" data-aos="fade-up">
+                <img src="media/taskmanager-poster.png" alt="Task Manager" class="video-poster">
+                <div class="project-content">
+                    <h3>Task Management App</h3>
+                    <p>
+                    A very powerful console-based desktop application built with C++ for tracking tasks. 
+                    Features print by PID, session name, and more...
+                    </p>
+                    <div class="project-links">
+                    <a href="https://github.com/eng-Shahd-Mostafa/Task-Manager" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 4 (Document Similarity)-->
+            <div class="project-card" data-aos="fade-up">
+                <img src="media/document-similarity.png" alt="Document Similarity" class="video-poster">
+                <div class="project-content">
+                    <h3>Document Similarity App</h3>
+                    <p>
+                    A console-based app written in C++ that calculates the similarity between two text 
+                    documents using cosine similarity and bag-of-words model.
+                    </p>
+                    <div class="project-links">
+                    <a href="https://github.com/eng-Shahd-Mostafa/Document-Similarity" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 (Conference Management System)-->
+            <div class="project-card" data-aos="fade-up">
+                <img src="media/conference-management.png" alt="Conference Management System" class="video-poster">
+                <div class="project-content">
+                    <h3>Conference Management System</h3>
+                    <p>
+                    A C# app for managing conferences. Includes features to add sessions and
+                    other features using GUI and SQL Server.
+                    </p>
+                    <div class="project-links">
+                    <a href="https://github.com/eng-Shahd-Mostafa/Conference-Management-System" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 (Vole Machine)-->
+            <div class="project-card" data-aos="fade-up">
+                <img src="media/vole-machine.png" alt="Vole Machine" class="video-poster">
+                <div class="project-content">
+                    <h3>Vole Machine</h3>
+                    <p>
+                    A C++ app that simulates a Vole machine, implementing basic operations and
+                    demonstrating the principles of computer architecture.
+                    </p>
+                    <div class="project-links">
+                    <a href="https://github.com/eng-Shahd-Mostafa/Vole-Machine-Simulator" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                     </div>
+                </div>
+            </div>             
+
+            <!-- Project 7 (Library Management System)-->
+            <div class="project-card" data-aos="fade-up">
+                <img src="media/library-management.png" alt="Library Management" class="video-poster">
+                <div class="project-content">
+                    <h3>Library Management System</h3>
+                    <p>
+                    A simple Java console-based Library Management System for managing books and users.
+                    Supports adding, searching, issuing, and returning books.
+                    </p>
+                    <div class="project-links">
+                    <a href="https://github.com/eng-Shahd-Mostafa/Vole-Machine-Simulator" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                     </div>
+                </div>
+            </div> 
+
+            <!-- Project 8 (Personal Investement Management)-->
+            <div class="project-card" data-aos="fade-up">
+                <img src="media/investment-management.png" alt="Investment Management" class="video-poster">
+                <div class="project-content">
+                    <h3>Personal Investment Management</h3>
+                    <p>
+                    A Java GUI-based Personal Investment Management System.
+                    Helps users track, add, and manage their financial investments visually and interactively.
+                    </p>
+                    <div class="project-links">
+                    <a href="https://github.com/eng-Shahd-Mostafa/Personal-investement-Management" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </section>
+
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="Skills" data-aos="fade-up">
+        <h1 class="section-title">My Skills</h1>
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="fade-up"><i class="fas fa-code"></i><h3>C++</h3><p>Advanced</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fas fa-code"></i><h3>C#</h3><p>Intermediate</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fas fa-database"></i><h3>Data Structures & Algorithms</h3></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fas fa-database"></i><h3>Solid Principles</h3></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-python"></i><h3>Python</h3><p>Intermediate</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fas fa-database"></i><h3>MS SQL Server</h3><p>Intermediate</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-windows"></i><h3>WinForms</h3><p>Familiar</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-java"></i><h3>Java</h3><p>Familiar</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-html5"></i><h3>HTML</h3><p>Advanced</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-css3-alt"></i><h3>CSS</h3><p>Intermediate</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-js"></i><h3>JavaScript</h3><p>Intermediate</p></div>
+            <div class="skill-card" data-aos="fade-up"><i class="fab fa-python"></i><h3>Django</h3><p>Familiar</p></div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="Contact" data-aos="fade-up">
+        <div class="contact-container">
+            <div class="contact-left">
+                <div class="main-heading">
+                    <h1 class="section-title">Contact Me</h1>
+                    <p>
+                        I'm always excited to connect! Whether you have an idea for a project,
+                        a question about my work, feel free to get in touch.
+                    </p>
+                    <h2>My Links:</h2>
+                    <div class="contact-links">
+                        <a href="https://www.linkedin.com/in/shahd-mostafa-844673318" target="_blank" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/eng-Shahd-Mostafa" target="_blank" class="icon github"><i class="fab fa-github"></i></a>
+                        <a href="mailto:eng.shahd.mostafa@gmail.com" class="icon email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <div class="form-box">
+                        <form id="contact-form" class="contact-form">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+
+                            <button type="submit" class="btn send-btn">Send Message</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AOS Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
