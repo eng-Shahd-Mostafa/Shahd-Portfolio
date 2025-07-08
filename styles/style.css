@@ -87,13 +87,12 @@ body.light-mode .about-right p {
 
 body.light-mode .info-container {
   background-color: rgba(255, 115, 169, 0.05);
-  border-color: #fd9fb5;
+  border-color: #69476a;
 }
 
 body.light-mode .about-placeholder {
   background-color: rgba(2, 168, 233, 0.05);
-  border-color: #fd9fb5;
-  color: #02a8e9;
+  border-color: #69476a;
 }
 
 /* Skills Section */
