@@ -30,13 +30,14 @@ toggleBtn.addEventListener("click", () => {
   }
 });
 
+// EmailJS configuration
 
-emailjs.init("-ikloLozKhendD2mr");
+emailjs.init("j0jkSldMn50FZmL1O");
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
   event.preventDefault();
 
-  emailjs.sendForm('service_fzp4hcm', 'template_xjqzrpm', this)
+  emailjs.sendForm('service_0zfvf4o', 'template_eq5e1fq', this) 
     .then(function() {
         alert('Message sent successfully!');
     }, function(error) {
