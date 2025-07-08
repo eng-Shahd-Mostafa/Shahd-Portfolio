@@ -286,12 +286,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #02a8e9; 
+  background: #fd9fb5; 
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1b2f5c;  
+  background: #69476a;  
 }
 
 /* ----------------Hero Section----------------- */
