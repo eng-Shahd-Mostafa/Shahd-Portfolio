@@ -82,24 +82,24 @@ body.light-mode .hero-section {
 
 /* About Section */
 body.light-mode .about-right p {
-  color: #666;
+  color: #0f0829;
 }
 
 body.light-mode .info-container {
   background-color: rgba(255, 115, 169, 0.05);
-  border-color: #02a8e9;
+  border-color: #fd9fb5;
 }
 
 body.light-mode .about-placeholder {
   background-color: rgba(2, 168, 233, 0.05);
-  border-color: #02a8e9;
+  border-color: #fd9fb5;
   color: #02a8e9;
 }
 
 /* Skills Section */
 body.light-mode .skill-card {
   background-color: white;
-  border: 2px solid #02a8e9;
+  border: 2px solid #69476a;
 }
 
 body.light-mode .skill-card h3 {
@@ -107,22 +107,22 @@ body.light-mode .skill-card h3 {
 }
 
 body.light-mode .skill-card p {
-  color: #555;
+  color: #2c2c2c;
 }
 
 body.light-mode .skill-card i {
-  color: #02a8e9;
+  color: #69476a;
 }
 
 body.light-mode .skill-card:hover {
-  box-shadow: 0 8px 16px rgba(2, 168, 233, 0.2);
-  border-color: #0589bd;
+  box-shadow: 0 8px 16px rgba(183, 2, 233, 0.2);
+  border-color: #69476a;
 }
 
 /* Contact Form */
 body.light-mode .form-box {
   background-color: white;
-  border-color: #02a8e95a;
+  border-color: #69476a;
 }
 
 body.light-mode .contact-form input,
@@ -134,7 +134,7 @@ body.light-mode .contact-form textarea {
 
 body.light-mode .contact-form input:focus,
 body.light-mode .contact-form textarea:focus {
-  border-color: #02a8e9;
+  border-color: #69476a;
   outline: none;
 }
 
@@ -149,15 +149,15 @@ body.light-mode .contact-form button:hover {
 
 /* Contact Left Text */
 body.light-mode .contact-left p {
-  color: #666;
+  color: #0f0829;
 }
 
 body.light-mode .info-container label {
-  color: #666;
+  color: #0f0829;
 }
 
 body.light-mode .info-container .info-title {
-  color: #170f35c9;
+  color: #170f35;
 }
 
 body.light-mode .contact-left h1 {
@@ -166,38 +166,24 @@ body.light-mode .contact-left h1 {
 
 body.light-mode .project-card {
   background-color: white;
-  border: 2px solid #02a8e9;
+  border: 3px solid #69476a;
   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
 }
 
 body.light-mode .project-card:hover {
-  border-color: #0589bd;
+  border-color: #69476a;
   box-shadow: 0 12px 24px rgba(0,0,0,0.15);
 }
 
 body.light-mode .project-content h3 {
-  color: #02a8e9;
+  color: #fd9fb5;
 }
 
 body.light-mode .project-content p {
-  color: #666;
+  color: #0f0829;
 }
 
-/* body.light-mode .certificate-card {
-  background-color: rgba(2, 168, 233, 0.05);
-  border-color: #02a8e9;
-  color: #666;
-}
 
-body.light-mode .certificate-card p {
-  color: #666;
-}
-
-body.light-mode .certificate-card h3,
-body.light-mode .certificate-card p strong,
-body.light-mode .certificate-header i {
-  color: #02a8e9;
-} */
 
 
 body{
@@ -499,7 +485,7 @@ section + section {
 }
 
 .info-container {
-  border: 2px solid #02a8e9;
+  border: 2px solid #fd9fb5;
   border-radius: 12px;
   padding: 20px;
   display: flex;
@@ -765,7 +751,7 @@ section + section {
 .contact-form label {
   margin-top: 15px;
   margin-bottom: 10px;
-  color: #fd9fb5;
+  color: #ff87a3;
 }
 
 .contact-form input,
