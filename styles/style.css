@@ -695,7 +695,7 @@ section + section {
 
 .skill-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(2, 168, 233, 0.3);
+  box-shadow: 0 8px 16px #ffadc073;
   border-color: #ff94ad;
 }
 
